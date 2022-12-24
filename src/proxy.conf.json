@@ -1,0 +1,6 @@
+{
+  "/wp-admin/admin-ajax.php": {
+  "target": "https://ardalzaeemtour.nayatmc.com",
+  "secure": true
+  }
+  }

@@ -1,0 +1,52 @@
+.app-splash-screen {
+  background: linear-gradient(180deg, #036277 0%, #0A4049 100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
+  transition: all 0.5s;
+}
+.app-splash-inner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.logo{
+  padding-top: 0px;
+  height: 10vh;
+}
+.splash-bg{
+  height: 40vh;
+}
+.splash-heading{
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5rem;
+}
+.splash-sub-heading{
+  color: #FFCC00;
+  font-size: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5rem;
+  text-align: center;
+}
+#svg-call-us{
+  height: 36px;
+  width: 36px;
+}
+.call-us{
+  padding: 12px 0px;
+  font-size: 1.2rem;
+  color: #ffcc00;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
